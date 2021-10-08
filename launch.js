@@ -70,10 +70,6 @@
     return init(s[0][3], s[1][3], s[2][3], s[3][3]);
   };
 
-  $('step-5').onclick = function() {
-    return window.location.reload();
-  };
-
   $('s-credits').onclick = function() {
     $('step-1').style.display = 'none';
     return $('credits').style.display = 'block';

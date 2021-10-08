@@ -36,7 +36,7 @@ bkcore.hexgl.ShipControls = function(ctx)
 	this.repulsionLerp = 0.1;
 	this.collisionSpeedDecrease = 0.8;
 	this.collisionSpeedDecreaseCoef = 0.8;
-	this.maxShield = 1.0;
+	this.maxShield = 0.1;
 	this.shieldDelay = 60;
 	this.shieldTiming = 0;
 	this.shieldDamage = 0.25;
@@ -51,7 +51,7 @@ bkcore.hexgl.ShipControls = function(ctx)
 	this.speed = 0.0;
 	this.speedRatio = 0.0;
 	this.boost = 0.0;
-	this.shield = 1.0;
+	this.shield = 0.1;
 	this.angular = 0.0;
 
 	this.currentVelocity = new THREE.Vector3();

@@ -54,8 +54,6 @@ $('step-2').onclick = ->
   $('step-2').style.display = 'none'
   $('step-3').style.display = 'block'
   init s[0][3], s[1][3], s[2][3], s[3][3]
-$('step-5').onclick = ->
-  window.location.reload()
 $('s-credits').onclick = ->
   $('step-1').style.display = 'none'
   $('credits').style.display = 'block'

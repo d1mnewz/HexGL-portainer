@@ -171,7 +171,7 @@ bkcore.hexgl.Gameplay.prototype.end = function(result)
 	}
 	else if(result == this.results.DESTROYED)
 	{
-		if(this.hud != null) this.hud.display("Destroyed");
+		if(this.hud != null) this.hud.display("It's over");
 		this.step = 100;
 	}
 }
